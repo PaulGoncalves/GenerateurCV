@@ -1,0 +1,17 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^Accueil$ index.php
+RewriteRule ^editionCV1$ edition_cv1.php [L]
+RewriteRule ^editionCV2$ edition_cv2.php [L]
+RewriteRule ^editionCV3$ edition_cv3.php [L]
+RewriteRule ^editionCV4$ edition_cv4.php [L]
+RewriteRule ^editionCV5$ edition_cv5.php [L]
+RewriteRule ^CV1$ cv1.php [L]
+RewriteRule ^CV2$ cv2.php [L]
+RewriteRule ^CV3$ cv3.php [L]
+RewriteRule ^CV4$ cv4.php [L]
+RewriteRule ^CV5$ cv5.php [L]
+RewriteRule ^Contact$ contact.php [L]
+
+ErrorDocument 404 http://localhost/Projet/CVsansBd/404.php

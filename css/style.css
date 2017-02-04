@@ -1,0 +1,169 @@
+body {
+    background-image: url(../img/fond.jpg);
+    background-attachment: fixed;
+}
+
+form {
+    background-color: rgba(64,108,144,0.58);
+    margin-bottom: 7px;
+}
+
+#message {
+    color:red;
+}
+
+
+h3 {
+    border:1px solid #b9b9b9;
+    border-radius: 6px;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color:#b3d1e0;
+}
+
+.bouton_barre {
+    width:150px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contenu {
+    margin-top: 3%;
+}
+
+.image_cv1{
+    margin-top: 3%;
+    position: fixed;
+    height: auto;
+    width:100%;
+    max-width:32%;
+    max-height:80%;
+}
+
+label {
+    width:100%;
+    margin-top:1%;
+    font-family: Andale Mono, monospace;
+    font-size:17px;
+    text-decoration : underline;
+    color:#4c4c4c;
+}
+
+input {
+    width:100%;
+    margin-top:1%;
+    height:30px
+}
+
+#submit {
+    height:30px;
+    border-radius: 6px;
+    width:20%;
+    border:1px solid grey;
+    margin-left:40%;
+    margin-bottom:5%;
+    background-color: #b3d1e0;
+}
+
+#submit2 {
+    height:30px;
+    border-radius: 6px;
+    width:50%;
+    border:1px solid grey;
+    margin-left:25%;
+    margin-bottom:5%;
+    background-color: #b3d1e0;
+    min-width:45%;
+}
+
+
+
+.erreur {
+    color: red;
+}
+
+.titre_erreur {
+    text-align: center;
+}
+
+.div_cv_haut {
+    height:500px;
+}
+
+.div_cv_bas {
+    height:500px;
+}
+
+footer {
+    width:100%;
+    height:200px;
+    background-color: #e0e0e0;
+    margin-top:5%;
+}
+
+.alignement {
+    padding-left:15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.img-responsive {
+    height:500px;
+    max-width: 80%;
+}
+
+
+.img-responsive:hover {
+    height:500px;
+    max-width: 80%;
+    opacity: 0.5;
+    transition-duration: 1s;
+    border: 1px solid white;
+}
+
+.arriere_ligne-haut {
+    background-color: rgba(179,209,224,0.74);
+    padding-bottom: 2%;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+}
+
+.arriere_ligne-bas {
+    background-color: rgba(179,209,224,0.74);
+    padding-bottom: 2%;
+    border-bottom:1px solid grey;
+    margin-top:1%;
+    border-top:1px solid grey;
+}
+
+textarea {
+    width:100%;
+    height:150px;
+}
+
+.footer_font_size {
+    margin-top:5%;
+    font-size: 20px;
+}
+
+.footer_font_size2 {
+    margin-top:4%;
+    font-size: 20px;
+}
+
+.erreur {
+    text-align: center;
+    color:grey;
+    margin-top:20%;
+}
+
+.erreur2 {
+    text-align: center;
+    color:grey;
+}
+
+#myCarousel {
+    height: 300px;
+}
